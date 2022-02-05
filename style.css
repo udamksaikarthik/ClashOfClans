@@ -39,4 +39,7 @@ body{
     margin: 1em;
     border-radius: 10px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
