@@ -44,7 +44,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.ThImage9{
+.ThImage9,.ThImage10..ThImage11,.ThImage12,.ThImage13,.ThImage14{
     height: 70%;
     width: 50%;
     background-image: url('Images/townhalls/th9.png');
