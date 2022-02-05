@@ -39,4 +39,15 @@ body{
     margin: 1em;
     border-radius: 10px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ThImage9{
+    height: 70%;
+    width: 50%;
+    background-image: url('Images/townhalls/th9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
