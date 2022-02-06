@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'clashFont';
+    src: url('Font/Supercell-magic-webfont.ttf');
+}
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'clashFont';
 }
 body{
     height: 100vh;
@@ -43,11 +48,40 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: inset 0 0 0 0 #B90E0A;
 }
-.ThImage9,.ThImage10..ThImage11,.ThImage12,.ThImage13,.ThImage14{
+.ThImage9,.ThImage10,.ThImage11,.ThImage12,.ThImage13,.ThImage14{
     height: 70%;
     width: 50%;
-    background-image: url('Images/townhalls/th9.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+}
+.ThImage9{
+    background-image: url('Images/townhalls/th9.png');
+}
+.ThImage10{
+    background-image: url('Images/townhalls/th 10.png');
+}
+.ThImage11{
+    background-image: url('Images/townhalls/th 11.png');
+}
+.ThImage12{
+    background-size: 90%;
+    background-image: url('Images/townhalls/th 12.png');
+}
+.ThImage13{
+    background-size: 80%;
+    background-image: url('Images/townhalls/th 13.png');
+}
+.ThImage14{
+    background-image: url('Images/townhalls/th 14 (1).png');
+}
+.ThImageCommon:hover{
+    transform: scale(10%);
+}
+.townhall:hover{
+    transition: 0.5s linear;
+    box-shadow: inset 328px 0 0 0 #B90E0A;
+    transform: scale(110%);
 }
