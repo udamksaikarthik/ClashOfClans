@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "myFont";
+    src: url("Font/Supercell-magic-webfont.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "myFont";
+}
