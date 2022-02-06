@@ -48,6 +48,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .ThImage9,.ThImage10,.ThImage11,.ThImage12,.ThImage13,.ThImage14{
     height: 70%;
@@ -85,4 +86,13 @@ body{
     transition: 0.5s linear;
     box-shadow: inset 328px 0 0 0 #B90E0A;
     transform: scale(110%);
+}
+.townhall:hover .ThName{
+    color: white;
+}
+.anchorTag{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
