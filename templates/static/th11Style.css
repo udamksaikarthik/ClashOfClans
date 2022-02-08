@@ -1,0 +1,59 @@
+.army1_unit1_image{
+    background: url('Images/Troops/10 P.E.K.K.A/PEKKA 1.png');
+}
+.army1_unit2_image{
+    background: url('Images/Troops/21 Bowler/Bowler.png');
+}
+.army1_unit3_image{
+    background: url('Images/Troops/8 Healer/Healer.png');
+}
+.army1_unit4_image{
+    background: url('Images/Troops/13 Electro Dragon/Electro Dragon.png');
+}
+.army1_unit5_image{
+    background: url('Images/Troops/6 Ballon/Balloon 1.png');
+}
+.army1_unit6_image{
+    background: url('Images/Troops/7 Wizard/Wizard 2.png');
+}
+.army1_spell1_image{
+    background: url('Images/clash of clans spells/Freeze Spell.png');
+}
+.army1_spell2_image{
+    background: url('Images/clash of clans spells/Bat Spell.png');
+}
+.army1_spell3_image{
+    background: url('Images/clash of clans spells/Poison Spell.png');
+}
+.army1_cc{
+    background: url('Images/Siege Machines/Log Launcher 1.png');
+}
+.army1_cc_troops{
+    background: url('Images/Troops/21 Bowler/Bowler.png');
+}
+.army1_cc_troops2{
+    background: url('Images/Troops/4 Giant/Giants 1.png');
+}
+.image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.army1_unit2_image,.army1_cc_troops{
+    background-size: 72%;
+}
+.army1_unit3_image{
+    background-size: 90%;
+}
+.army1_unit4_image{
+    background-size: 95%;
+}
+.army1_unit5_image{
+    background-size: 55%;
+}
+.army1_unit6_image{
+    background-size: 88%;
+}
+.army1_cc_troops2{
+    background-size: 90%;
+}
