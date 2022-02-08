@@ -1,4 +1,5 @@
 .main_container{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +16,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .army_composition{
     margin: 1em 0;
@@ -25,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: 95%;
 }
 .title_description_container,.copyArmy{
     padding: 1em;
@@ -34,11 +36,18 @@
     align-items: center;
     justify-content: center;
 }
+.title_description_container{
+    width: 30%;
+}
+.copyArmy{
+    width: 10%;
+}
 .composition{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 60%;
 }
 .army1_units{
     display: flex;
@@ -50,6 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .army1_unit1_image{
     background: url('Images/Troops/Drag\ Rider.jpg');
@@ -118,7 +128,9 @@ li{
     border-radius: 5px;
     padding: 1em;
 }
-
+.cc_container{
+    margin: 5px 0.5em;
+}
 
 @media (max-width: 450px){
     .header_title {
@@ -152,4 +164,16 @@ li{
       h4{
           font-size: 0.5em;
       }
+      .title_description_container{
+        width: 100%;
+        }
+        .copyArmy{
+            width: 100%;
+        }
+        .composition{
+            width: 100%;
+        }
+        .cc_container{
+            margin: 2px 5px;
+        }
 }
