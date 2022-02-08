@@ -1,3 +1,10 @@
+.image{
+    height: 8em;
+    width: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .army1_unit1_image{
     background: url('Images/Troops/10 P.E.K.K.A/PEKKA 1.png');
 }
@@ -34,6 +41,9 @@
 .army1_cc_troops2{
     background: url('Images/Troops/4 Giant/Giants 1.png');
 }
+.army1_cc_spells{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
 .image{
     background-repeat: no-repeat;
     background-position: center;
@@ -56,4 +66,50 @@
 }
 .army1_cc_troops2{
     background-size: 90%;
+}
+
+@media (max-width: 450px){
+    .header_title {
+        font-size: 1.5em;
+      }
+      .army_compositions_container {
+        margin: 5px 5px;
+        padding: 2px;
+      }
+      .army_composition {
+        margin: 2px 0;
+        padding: 1px;
+        border-radius: 5px;
+        flex-direction: column;
+        width: 90%;
+      }
+      .image {
+        height: 3em;
+        width: 3em;
+      }
+      .army_title{
+          font-size: 0.75em;
+      }
+      .army_description{
+          font-size: 0.5em;
+      }
+      .copy_army_button {
+        border-radius: 4px;
+        padding: 5px;
+      }
+      h4{
+          font-size: 0.5em;
+      }
+      .title_description_container{
+        width: 100%;
+        }
+        .copyArmy{
+            width: 100%;
+        }
+        .composition{
+            width: 100%;
+        }
+        .cc_container{
+            margin: 2px 5px;
+        }
 }

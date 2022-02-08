@@ -1,0 +1,263 @@
+/* Army-1 initial styles Started */
+
+.army1_unit1_image{
+    background: url('Images/Troops/Drag Rider.jpg');
+}
+.army1_unit2_image{
+    background: url('Images/Troops/9 Dragon/Dragon.png');
+}
+.army1_unit3_image{
+    background: url('Images/Troops/6 Ballon/Balloon 1.png');
+}
+.army1_cc{
+    background: url('Images/Siege Machines/Battle Blimp.png');
+}
+.army1_cc_troops{
+    background: url('Images/Troops/6 Ballon/Balloon\ 1.png');
+}
+.army1_spell1_image{
+    background: url('Images/clash of clans spells/Clone Spell.png');
+}
+.army1_spell2_image{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
+.army1_cc_spells{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
+
+/* Army-1 initial styles ended */
+
+/* Army-2 initial styles Started */
+
+.army2_unit1_image{
+    background: url('Images/Troops/12 Miner/Miner 1.png');
+}
+.army2_unit2_image{
+    background: url('Images/Troops/16 Hog Rider/Hog Rider 2.png');
+}
+.army2_unit3_image{
+    background: url('Images/Troops/8 Healer/Healer.png');
+}
+.army2_unit4_image{
+    background: url('Images/Troops/6 Ballon/Balloon 1.png');
+}
+.army2_unit5_image{
+    background: url('Images/Troops/11 Baby Dragon/Baby Dragon.png');
+}
+.army2_unit6_image{
+    background: url('Images/Troops/5 wall breaker/Wall Breaker 1.png');
+}
+.army2_unit7_image{
+    background: url('Images/Troops/7 Wizard/Wizard 2.png');
+}
+.army2_unit8_image{
+    background: url('Images/Troops/2 Archer/Archer 1.png');
+}
+.army2_cc{
+    background: url('Images/Siege Machines/Siege Machine 2.png');
+}
+.army2_cc_troops{
+    background: url('Images/Troops/16 Hog Rider/Hog Rider 2.png');
+}
+.army2_spell1_image{
+    background: url('Images/clash of clans spells/Healing Spell.png');
+}
+.army2_spell2_image{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
+.army2_spell3_image{
+    background: url('Images/clash of clans spells/Freeze Spell.png');
+}
+.army2_spell4_image{
+    background: url('Images/clash of clans spells/Poison Spell.png');
+}
+.army2_cc_spells{
+    background: url('Images/clash of clans spells/Healing Spell.png');
+}
+
+/* Army-2 initial styles ended */
+
+/* Army-3 initial styles Started */
+
+.army3_unit1_image{
+    background: url('Images/Troops/20 Lava Hound/Lava Hound.png');
+}
+.army3_unit2_image{
+    background: url('Images/Troops/6 Ballon/Balloon 1.png');
+}
+.army3_unit3_image{
+    background: url('Images/Troops/15 Minion/Minion.png');
+}
+.army3_unit4_image{
+    background: url('Images/Troops/22 Ice Golem/Ice Golem.png');
+}
+.army3_unit5_image{
+    background: url('Images/Troops/11 Baby Dragon/Baby Dragon.png');
+}
+.army3_unit6_image{
+    background: url('Images/Troops/5 wall breaker/Wall Breaker 1.png');
+}
+.army3_unit7_image{
+    background: url('Images/Troops/7 Wizard/Wizard 2.png');
+}
+.army3_cc{
+    background: url('Images/Siege Machines/Battle Blimp.png');
+}
+.army3_cc_troops{
+    background: url('Images/');
+}
+.army3_spell1_image{
+    background: url('Images/clash of clans spells/Invisibility_Spell.png');
+}
+.army3_spell2_image{
+    background: url('Images/clash of clans spells/Haste Spell.png');
+}
+.army3_spell3_image{
+    background: url('Images/clash of clans spells/Freeze Spell.png');
+}
+.army3_spell4_image{
+    background: url('Images/clash of clans spells/Poison Spell.png');
+}
+.army3_cc_spells{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
+
+/* Army-3 initial styles ended */
+
+
+/* Image Size Default Settings */
+
+.image{
+    height: 8em;
+    width: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Army-1 Additional Styles */
+
+.army1_unit2_image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.army1_unit3_image,.army1_cc_troops{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.army1_cc{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+/* Army-1 additional Styles ended */
+
+/* Army-2 Additional Styles */
+
+.army2_unit2_image{
+    background-size: 80%;
+}
+.army2_unit2_image,.army2_cc_troops{
+    background-size: 80%;
+}
+.army2_unit3_image{
+    background-size: 90%;
+}
+.army2_unit4_image{
+    background-size: 55%;
+}
+.army2_unit5_image{
+    background-size: 90%;
+}
+.army2_unit6_image{
+    background-size: 70%;
+}
+.army2_unit7_image{
+    background-size: 80%;
+}
+.army2_unit8_image{
+    background-size: 65%;
+}
+.army2_cc{
+    background-size: 90%;
+}
+
+/* Army-2 additional Styles ended */
+
+/* Army-3 additional Styles started */
+
+.army3_unit1_image{
+    background-size: 80%;
+}
+.army3_unit2_image{
+    background-size: 55%;
+}
+.army3_cc_troops{
+    /* background-size: 80%; */
+}
+.army3_unit3_image{
+    background-size: 90%;
+}
+.army3_unit4_image{
+    background-size: 100%;
+}
+.army3_unit5_image{
+    background-size: 90%;
+}
+.army3_unit6_image{
+    background-size: 70%;
+}
+.army3_unit7_image{
+    background-size: 80%;
+}
+
+/* Army-3 additional Styles ended */
+
+@media (max-width: 450px){
+    .header_title {
+        font-size: 1.5em;
+      }
+      .army_compositions_container {
+        margin: 5px 5px;
+        padding: 2px;
+      }
+      .army_composition {
+        margin: 2px 0;
+        padding: 1px;
+        border-radius: 5px;
+        flex-direction: column;
+        width: 90%;
+      }
+      .image {
+        height: 3em;
+        width: 3em;
+      }
+      .army_title{
+          font-size: 0.75em;
+      }
+      .army_description{
+          font-size: 0.5em;
+      }
+      .copy_army_button {
+        border-radius: 4px;
+        padding: 5px;
+      }
+      h4{
+          font-size: 0.5em;
+      }
+      .title_description_container{
+        width: 100%;
+        }
+        .copyArmy{
+            width: 100%;
+        }
+        .composition{
+            width: 100%;
+        }
+        .cc_container{
+            margin: 2px 5px;
+        }
+}
