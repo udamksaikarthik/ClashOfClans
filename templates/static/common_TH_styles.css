@@ -120,3 +120,36 @@ li{
 }
 
 
+@media (max-width: 450px){
+    .header_title {
+        font-size: 1.5em;
+      }
+      .army_compositions_container {
+        margin: 5px 5px;
+        padding: 2px;
+      }
+      .army_composition {
+        margin: 2px 0;
+        padding: 1px;
+        border-radius: 2px;
+        flex-direction: column;
+        width: 100%;
+      }
+      .image {
+        height: 3em;
+        width: 3em;
+      }
+      .army_title{
+          font-size: 0.75em;
+      }
+      .army_description{
+          font-size: 0.5em;
+      }
+      .copy_army_button {
+        border-radius: 4px;
+        padding: 5px;
+      }
+      h4{
+          font-size: 0.5em;
+      }
+}
