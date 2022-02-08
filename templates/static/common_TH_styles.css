@@ -49,7 +49,7 @@
     justify-content: center;
     width: 60%;
 }
-.army1_units{
+.army1_units,.army2_units{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,8 +61,16 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Army-1 initial styles Started */
+
 .army1_unit1_image{
-    background: url('Images/Troops/Drag\ Rider.jpg');
+    background: url('Images/Troops/Drag Rider.jpg');
 }
 .army1_unit2_image{
     background: url('Images/Troops/9 Dragon/Dragon.png');
@@ -76,11 +84,6 @@
 .army1_cc_troops{
     background: url('Images/Troops/6 Ballon/Balloon\ 1.png');
 }
-.quantity{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .army1_spell1_image{
     background: url('Images/clash of clans spells/Clone Spell.png');
 }
@@ -90,11 +93,72 @@
 .army1_cc_spells{
     background: url('Images/clash of clans spells/Rage Spell.png');
 }
+
+/* Army-1 initial styles ended */
+
+/* Army-2 initial styles Started */
+
+.army2_unit1_image{
+    background: url('Images/Troops/12 Miner/Miner 1.png');
+}
+.army2_unit2_image{
+    background: url('Images/Troops/16 Hog Rider/Hog Rider 2.png');
+}
+.army2_unit3_image{
+    background: url('Images/Troops/8 Healer/Healer.png');
+}
+.army2_unit4_image{
+    background: url('Images/Troops/6 Ballon/Balloon 1.png');
+}
+.army2_unit5_image{
+    background: url('Images/Troops/11 Baby Dragon/Baby Dragon.png');
+}
+.army2_unit6_image{
+    background: url('Images/Troops/5 wall breaker/Wall Breaker 1.png');
+}
+.army2_unit7_image{
+    background: url('Images/Troops/7 Wizard/Wizard 2.png');
+}
+.army2_unit8_image{
+    background: url('Images/Troops/2 Archer/Archer 1.png');
+}
+.army2_cc{
+    background: url('Images/Siege Machines/Siege Machine 2.png');
+}
+.army2_cc_troops{
+    background: url('Images/Troops/16 Hog Rider/Hog Rider 2.png');
+}
+.army2_spell1_image{
+    background: url('Images/clash of clans spells/Healing Spell.png');
+}
+.army2_spell2_image{
+    background: url('Images/clash of clans spells/Rage Spell.png');
+}
+.army2_spell3_image{
+    background: url('Images/clash of clans spells/Freeze Spell.png');
+}
+.army2_spell4_image{
+    background: url('Images/clash of clans spells/Poison Spell.png');
+}
+.army2_cc_spells{
+    background: url('Images/clash of clans spells/Healing Spell.png');
+}
+
+/* Army-2 initial styles ended */
+
+
+/* Image Size Default Settings */
+
 .image{
     height: 8em;
     width: 8em;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+/* Army-1 Additional Styles */
+
 .army1_unit2_image{
     background-repeat: no-repeat;
     background-position: center;
@@ -110,6 +174,41 @@
     background-position: center;
     background-size: 90%;
 }
+
+/* Army-1 additional Styles ended */
+
+/* Army-2 Additional Styles */
+
+.army2_unit2_image{
+    background-size: 80%;
+}
+.army2_unit2_image,.army2_cc_troops{
+    background-size: 80%;
+}
+.army2_unit3_image{
+    background-size: 90%;
+}
+.army2_unit4_image{
+    background-size: 55%;
+}
+.army2_unit5_image{
+    background-size: 90%;
+}
+.army2_unit6_image{
+    background-size: 70%;
+}
+.army2_unit7_image{
+    background-size: 80%;
+}
+.army2_unit8_image{
+    background-size: 65%;
+}
+.army2_cc{
+    background-size: 90%;
+}
+
+/* Army-2 additional Styles ended */
+
 .army1_spell1_quantity,.army1_spell2_quantity{
     display: flex;
     align-items: center;
@@ -143,9 +242,9 @@ li{
       .army_composition {
         margin: 2px 0;
         padding: 1px;
-        border-radius: 2px;
+        border-radius: 5px;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
       }
       .image {
         height: 3em;
