@@ -112,4 +112,10 @@
         .cc_container{
             margin: 2px 5px;
         }
+        .homeIcon{
+            top: -5%;
+            right: 2%;
+            height: 20%;
+            width: 10%;
+        } 
 }

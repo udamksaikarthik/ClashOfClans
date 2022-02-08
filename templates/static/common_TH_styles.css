@@ -6,6 +6,7 @@
     justify-content: center;
 }
 .header_title{
+    margin-top: 1em;
     font-size: 2.5em;
 }
 .army_compositions_container{
@@ -88,3 +89,19 @@ li{
     margin: 5px 0.5em;
 }
 
+.homeIcon{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    height: 11%;
+    width: 5%;
+    background: url('Images/Icons/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.homeIcon a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
